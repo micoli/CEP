@@ -1,6 +1,6 @@
 {
 	"name": "qd/CEP",
-	"version":"1.0.0",
+	"version":"1.0.1",
 	"type": "package",
 	"description": "mail proxy system enabling advanced debugging and plugin mechanism",
 	"keywords": ["class","proxy","interceptor","debugging","plugin"],
@@ -14,21 +14,9 @@
 	"require": {
 		"php" : ">=5.3"
 	},
-	"require-dev": {
-		"phpunit/phpunit" : "~4.3|~5.0"
-	},
-	"minimum-stability": "dev",
 	"autoload": {
 		"psr-4": {
 			"CEP\\": "src"
 		}
-	},
-	"autoload-dev": {
-		"psr-4": {
-			"CEP\\": "tests"
-		}
-	},
-	"scripts": {
-		"test": "phpunit"
 	}
 }
